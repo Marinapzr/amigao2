@@ -1,142 +1,152 @@
+/* Remove o padding e margin padrão de todos os elementos e define box-sizing para border-box */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Define a fonte padrão */
+}
 
+/* Estiliza o h4 */
 h4{
-    margin-left: 10px;
-    margin-top:20px;
-    height: 30px;
-    font-weight: normal; /* Remove o negrito dos links */
-    
+  margin-left: 10px; /* Espaçamento à esquerda */
+  margin-top: 20px; /* Espaçamento acima */
+  height: 30px; /* Altura do h4 */
+  font-weight: normal; /* Remove o negrito */
 }
 
+/* Estiliza a classe lista1 */
 .lista1{
-    height: 120px;
-    display: block;
-    margin-left: 45px;
-    margin-top: 4px;
+  height: 120px; /* Altura da lista */
+  display: block; /* Exibe como bloco */
+  margin-left: 45px; /* Espaçamento à esquerda */
+  margin-top: 4px; /* Espaçamento acima */
 }
 
+/* Estiliza os itens da lista dentro de lista1 */
 .lista1 li{
-   margin-top: 4px;
+  margin-top: 4px; /* Espaçamento acima dos itens */
 }
 
-
+/* Estiliza a classe parte1 */
 .parte1{
-
-display:block;
-height: 26vh;
-margin-left: 8px;
+  display: block; /* Exibe como bloco */
+  height: 26vh; /* Altura da parte1 */
+  margin-left: 8px; /* Espaçamento à esquerda */
 }
 
+/* Estiliza os botões dentro de parte1 */
 .parte1 button{
-    margin-left: 10px;
-    margin-top: 8px;
-    width: 25px;
-    height: 30px;
-    background-color: rgb(193, 187, 187);  
-    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.3); 
+  margin-left: 10px; /* Espaçamento à esquerda */
+  margin-top: 8px; /* Espaçamento acima */
+  width: 25px; /* Largura do botão */
+  height: 30px; /* Altura do botão */
+  background-color: rgb(193, 187, 187); /* Cor de fundo do botão */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Sombra do botão */
 }
 
+/* Estiliza a classe parte2 */
 .parte2{
-    margin-left:10px ;
-    margin-top: 10px;
-    width: 70vw;
-    height: 48vh; /*altura*/
-    padding-top: 10px; /*dar espaço interno a cima*/
+  margin-left: 10px; /* Espaçamento à esquerda */
+  margin-top: 10px; /* Espaçamento acima */
+  width: 70vw; /* Largura da parte2 */
+  height: 48vh; /* Altura da parte2 */
+  padding-top: 10px; /* Espaçamento interno acima */
 }
 
+/* Estiliza os botões dentro de parte2 */
 .parte2 button{
-    margin-left: 20px ;
-    margin-top:20px;
-    background-color: rgb(193, 187, 187);
-    width: 15vw;
-    height: 4vh;
-    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.3); /*coloca sombra do botão*/
+  margin-left: 20px; /* Espaçamento à esquerda */
+  margin-top: 20px; /* Espaçamento acima */
+  background-color: rgb(193, 187, 187); /* Cor de fundo do botão */
+  width: 15vw; /* Largura do botão */
+  height: 4vh; /* Altura do botão */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Sombra do botão */
 }
 
- p{
-    margin-top: 10px;  
-    margin-left: 5px;
+/* Estiliza os parágrafos */
+p{
+  margin-top: 10px; /* Espaçamento acima */
+  margin-left: 5px; /* Espaçamento à esquerda */
 }
 
-
+/* Estiliza os h2 */
 h2{
-    margin-top: 30px;
-    margin-left: 20px;
+  margin-top: 30px; /* Espaçamento acima */
+  margin-left: 20px; /* Espaçamento à esquerda */
 }
 
+/* Estiliza a classe circulo */
 .circulo{
-    width: 9vw;
-    height: 15vh;
-    border-radius: 50%;/*arredonda as bordas transformando em um circulo*/
-    background-color: rgb(193, 187, 187);/*cor do fundo do circulo*/
-    margin-left: 18px;
+  width: 9vw; /* Largura do círculo */
+  height: 15vh; /* Altura do círculo */
+  border-radius: 50%; /* Arredonda as bordas transformando em um círculo */
+  background-color: rgb(193, 187, 187); /* Cor de fundo do círculo */
+  margin-left: 18px; /* Espaçamento à esquerda */
 }
 
+/* Estiliza as divs dentro da classe cachorros */
 .cachorros div {
-    display: inline-block; /*tranforma em blocos um do lado do outro */
-    padding: 20px; /* Adiciona padding interno nas divs */
-    width: 200px; /* Define uma largura fixa para as divs */ 
+  display: inline-block; /* Exibe como blocos lado a lado */
+  padding: 20px; /* Espaçamento interno */
+  width: 200px; /* Largura fixa das divs */
 }
-  
-  .cachorros img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
-    height: auto; /* Mantém a proporção da imagem */
-  }
-  
-  .cachorros p {
-    margin: 10px  /* Adiciona margem vertical nas tags p */
-  }
-  
 
+/* Estiliza as imagens dentro da classe cachorros */
+.cachorros img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estiliza os parágrafos dentro da classe cachorros */
+.cachorros p {
+  margin: 10px; /* Espaçamento ao redor dos parágrafos */
+}
+
+/* Estiliza os h3 */
 h3{
- margin-left: 5px;
- font-weight: normal; /* tira o negrito dos links */
- margin-left: 7px;
+  margin-left: 5px; /* Espaçamento à esquerda */
+  font-weight: normal; /* Remove o negrito */
+  margin-left: 7px; /* Espaçamento à esquerda */
 }
 
-
-  .amigo  {
-    height: 25px;
-    padding-left: 10px;
-    margin-top: 10px;
+/* Estiliza a classe amigo */
+.amigo {
+  height: 25px; /* Altura da div */
+  padding-left: 10px; /* Espaçamento interno à esquerda */
+  margin-top: 10px; /* Espaçamento acima */
 }
-  
-  .redessociais {
-    padding-left: 20px; /*espaçamento interno p/direita*/
-    margin-top: 4px;  
+
+/* Estiliza a classe redessociais */
+.redessociais {
+  padding-left: 20px; /* Espaçamento interno à esquerda */
+  margin-top: 4px; /* Espaçamento acima */
 }
-  
-  .redessociais img {
-    display: inline-block; 
-    width: 20px; /* largura da imagens */
-    height: 20px; /* altura da imagens */
-    height: auto;
-  }
 
-  
-  .parte3{
-    display: block;/*ocupa toda largura que tiver */
-    margin-top: 3px;
-    margin-left: 10px;
-  }
+/* Estiliza as imagens dentro da classe redessociais */
+.redessociais img {
+  display: inline-block; /* Exibe como blocos lado a lado */
+  width: 20px; /* Largura das imagens */
+  height: 20px; /* Altura das imagens */
+  height: auto; /* Mantém a proporção */
+}
 
-  .lista2 {
-    display: block;
-    height: 120px;
-    margin-top: 20px; /* Adiciona espaço acima da lista */
-    padding-left: 50px;   
-  }
+/* Estiliza a classe parte3 */
+.parte3{
+  display: block; /* Exibe como bloco */
+  margin-top: 3px; /* Espaçamento acima */
+  margin-left: 10px; /* Espaçamento à esquerda */
+}
 
+/* Estiliza a classe lista2 */
+.lista2 {
+  display: block; /* Exibe como bloco */
+  height: 120px; /* Altura da lista */
+  margin-top: 20px; /* Espaçamento acima */
+  padding-left: 50px; /* Espaçamento interno à esquerda */
+}
+
+/* Estiliza os itens da lista dentro de lista2 */
 .lista2 li {
-    margin-top: 10px; /* Adiciona espaço acima de cada item da lista */
-    display: block; /* Garante que cada item da lista seja um bloco */
+  margin-top: 10px; /* Espaçamento acima dos itens */
+  display: block; /* Garante que cada item da lista seja um bloco */
 }
-
-
-
- 
